@@ -10,6 +10,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "web-push": "^3.4.3"
-  }
+    "web-push": "^3.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anjalitanpure1993/web-push.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anjalitanpure1993/web-push/issues"
+  },
+  "homepage": "https://github.com/anjalitanpure1993/web-push#readme"
 }
