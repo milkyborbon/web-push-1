@@ -8,7 +8,5 @@ let vapidKeys = {
 
 push.setVapidDetails('mailto:milkyborbon30@gmail.com', vapidKeys.publicKey, vapidKeys.privateKey);
 
-let sub = {
-
-};
+let sub = {"endpoint":"https://fcm.googleapis.com/fcm/send/eXQ6tkl8gsY:APA91bEm8b8mptRIUXGfrJk7Ody8YUGfCZpHI15Wp4NuR0plj7L2VPSNNmHZYD0944ksGTMaCLWczH4eEfpd8rYp-ODanIpoHkDTqGtScuXUzSUHtj909UtVqG2dqnqxUJFjatzdnGyJ","expirationTime":null,"keys":{"p256dh":"BN6fYTKYmDkqOw0NomKfD-5nh6TKSgrPQC_sUPg2gZr5pdnFuYidciu090O61Zp339meyrQI6i-ooNuPlVQWnR4","auth":"On2GI7QRL79EeKeZsoaU9A"}};
 push.sendNotification(sub, 'This is the Test Message');
